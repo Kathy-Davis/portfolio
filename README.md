@@ -1,4 +1,4 @@
-# Professional QA Manual Tester Portfolio
+# (Professional QA Manual Tester Portfolio)
 
 ## Overview
 Manual QA Tester with hands-on experience testing **web and mobile applications** across multiple domains, including healthcare, legal tech, e-commerce, and B2B platforms. Skilled in **functional, UI, regression, exploratory, and cross-platform testing,** with a strong focus on **requirements validation, defect documentation, and user experience quality.**
