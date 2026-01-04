@@ -324,6 +324,7 @@
                     <div class="p-6">
                         <p class="text-gray-600 mb-6">Comprehensive testing of a coffee and food ordering web application featuring product catalog browsing, online ordering with delivery services, and table reservation functionality. Validated complete customer workflows from menu exploration and product details to order placement and advance booking systems. Ensured seamless integration between e-commerce features and restaurant reservation management.</p>
                         <button class="btn-primary text-white px-6 py-2 rounded-lg w-full font-semibold">
+                              data-link="https://kathy-davis.github.io/portfolio/coffee-cafe-app-testing">
                             Explore My Process
                         </button>
                     </div>
@@ -604,30 +605,17 @@
         });
 
      // Portfolio button interactions
-        document.querySelectorAll('.btn-primary').forEach(button => {
-    button.addEventListener('click', function(e) {
-        e.preventDefault();
-        const buttonText = this.textContent.trim();
-        
-        console.log("Button clicked:", buttonText);
-if (buttonText.includes('Test Analysis')) {
-    window.open('https://github.com/Kathy-Davis/task-management-app-testing', '_blank');
-} else if (buttonText.includes('Explore My Process')) {
-    window.open('https://github.com/Kathy-Davis/coffee-cafe-app-testing', '_blank');
-} else if (buttonText.includes('Review Test Execution')) {
-    window.open('https://github.com/Kathy-Davis/global-real-estate-app-testing', '_blank');
-} else if (buttonText.includes('See Testing Details')) {
-    window.open('https://github.com/Kathy-Davis/contract-management-app-testing', '_blank');
-} else if (buttonText.includes('View SQL Validation')) {
-    window.open('https://github.com/Kathy-Davis/sql-portfolio-analysis', '_blank');
-} else if (buttonText.includes('QA Methodology')) {
-    window.open('https://github.com/Kathy-Davis/portfolio#bug-reporting--quality-assurance', '_blank');
-}
-        
-     
-    });
+        <script>
+document.querySelectorAll('.btn-primary').forEach(button => {
+  button.addEventListener('click', e => {
+    e.preventDefault();
+    const link = button.getAttribute('data-link');
+    if (link) {
+      window.open(link, '_blank');
+    }
+  });
 });
-
+</script>
         // Contact form handling
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
