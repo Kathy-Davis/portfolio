@@ -43,7 +43,28 @@
             transition: all 0.3s ease;
             cursor: pointer;
         }
-        
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+}
+
+#portfolio .card-hover {
+    position: relative;
+    overflow: visible !important;
+}
+
+#portfolio button.btn-primary {
+    position: relative !important;
+    z-index: 100 !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+/* Nuclear option if still not working */
+#portfolio * {
+    pointer-events: auto !important;
+}
         .btn-primary:hover {
             transform: translateY(-2px);
             box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
@@ -525,6 +546,25 @@
             // Reset form
             this.reset();
         });
+        document.addEventListener('DOMContentLoaded', function() {
+    console.log('Fixing portfolio buttons...');
+    
+    // Get all 6 portfolio buttons
+    const portfolioButtons = document.querySelectorAll('#portfolio button.btn-primary');
+    
+    portfolioButtons.forEach(button => {
+        // Make button layers independent
+        button.style.position = 'relative';
+        button.style.zIndex = '9999';
+        button.style.pointerEvents = 'auto';
+        
+        // Clone and replace button to break any event blockages
+        const newButton = button.cloneNode(true);
+        button.parentNode.replaceChild(newButton, button);
+    });
+    
+    console.log('Fixed', portfolioButtons.length, 'portfolio buttons');
+});
     </script>
 </body>
 </html>
