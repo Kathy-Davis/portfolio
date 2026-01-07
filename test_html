@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+    <h1>Test Button</h1>
+    <button onclick="window.open('https://github.com/Kathy-Davis/coffee-cafe-app-testing', '_blank')">
+        Click Me
+    </button>
+</body>
+</html>
