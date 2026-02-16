@@ -6,35 +6,35 @@ This portfolio showcases real-world QA projects, testing methodologies, and defe
 
 ## Projects
 
-### [SQL Portfolio: Data Analysis & Query Validation]
+### SQL Portfolio: Data Analysis & Query Validation
 A hands-on SQL project demonstrating **data validation and analysis** through business-focused queries. Emphasis on verifying data accuracy, identifying anomalies, and extracting meaningful insights from product, customer, and order datasets to support decision-making.
 
-### [Coffee Cafe App: End-to-End Workflow & UI Testing)]
+### Coffee Cafe App: End-to-End Workflow & UI Testing
 A full-featured web application combining **e-commerce ordering and reservation management.** QA focus included:
 •	Functional testing of user flows (menu browsing, ordering, reservations)
 •	UI consistency and usability validation
 •	Regression testing across key workflows
 
-### [Contract Management App: Mobile Workflow Testing])
+### Contract Management App: Mobile Workflow Testing
 A mobile legal platform enabling users to create, sign, and manage digital contracts. Testing focused on:
 •	End-to-end contract lifecycle validation
 •	AI-assisted contract analysis workflows
 •	Secure multi-party digital signature handling
 •	Mobile usability and data integrity
 
-### [Global Real Estate App: Business Workflow Validation)]
+### Global Real Estate App: Business Workflow Validation
 A B2B real estate platform for international property transactions. QA activities included:
 •	Functional testing of proposal generation and resale workflows
 •	Data accuracy verification for property and payment structures
 •	Validation of role-based access and partner collaboration features
 
-### [Task Management App: Cross-Platform Validation & Authenticatication]
+### Task Management App: Cross-Platform Validation & Authenticatication
 A healthcare-related mobile application requiring reliable authentication across multiple environments. Testing focused on:
 •	Login and access control validation
 •	Cross-platform behavior consistency
 •	Healthcare data access reliability under varying configurations
 
-### [Bug Reporting & Quality Assurance Practices]
+### Bug Reporting & Quality Assurance Practices
 ## Bug Reporting Methodology
 A structured QA approach to identifying, documenting, and tracking defects throughout the testing lifecycle.
 
