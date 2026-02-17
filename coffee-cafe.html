@@ -1,0 +1,133 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Cafe App - QA Case Study | Kathy Davis</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Link to your existing CSS -->
+</head>
+<body>
+    <!-- Navigation (copy from your index.html) -->
+    <nav>...</nav>
+
+    <main class="project-case-study">
+        <div class="container">
+            <!-- Back to Portfolio Link -->
+            <a href="index.html" class="back-link">← Back to Portfolio</a>
+            
+            <!-- Project Header -->
+            <h1>Coffee Cafe App</h1>
+            <p class="project-subtitle">Comprehensive Testing of a Food Ordering Web Application</p>
+            
+            <!-- Project Overview -->
+            <section class="project-section">
+                <h2>Project Overview</h2>
+                <p>A coffee and food ordering web application featuring product catalog browsing, online ordering with delivery services, and table reservation functionality.</p>
+            </section>
+            
+            <!-- My Role -->
+            <section class="project-section">
+                <h2>My Role</h2>
+                <p>QA Tester responsible for validating complete customer workflows from menu exploration to order placement and advance booking systems.</p>
+            </section>
+            
+            <!-- Testing Approach -->
+            <section class="project-section">
+                <h2>Testing Approach</h2>
+                <ul>
+                    <li><strong>Functional Testing:</strong> Verified all core features including product search, add-to-cart, checkout, and payment processing</li>
+                    <li><strong>UI Testing:</strong> Ensured responsive design across desktop, tablet, and mobile viewports</li>
+                    <li><strong>Integration Testing:</strong> Validated seamless connection between e-commerce features and restaurant reservation system</li>
+                    <li><strong>Regression Testing:</strong> Re-tested critical paths after bug fixes</li>
+                </ul>
+            </section>
+            
+            <!-- Key Test Cases -->
+            <section class="project-section">
+                <h2>Key Test Cases</h2>
+                <div class="test-case-grid">
+                    <div class="test-case">
+                        <h3>TC-001: Browse Menu</h3>
+                        <p>Verify all menu items display correctly with images, descriptions, and prices</p>
+                    </div>
+                    <div class="test-case">
+                        <h3>TC-002: Add to Cart</h3>
+                        <p>Confirm items can be added, quantities adjusted, and cart updates in real-time</p>
+                    </div>
+                    <div class="test-case">
+                        <h3>TC-003: Table Reservation</h3>
+                        <p>Validate date/time selection, party size, and special request fields work properly</p>
+                    </div>
+                    <div class="test-case">
+                        <h3>TC-004: Checkout Flow</h3>
+                        <p>Test complete order placement through payment confirmation</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Bug Examples -->
+            <section class="project-section">
+                <h2>Sample Bugs Found</h2>
+                <div class="bug-list">
+                    <div class="bug-item">
+                        <h3>Bug #001: Cart Total Miscalculation</h3>
+                        <p><strong>Severity:</strong> High</p>
+                        <p><strong>Description:</strong> When adding multiple items with modifiers (extra shots, syrups), the cart total did not include modifier costs.</p>
+                        <p><strong>Steps to Reproduce:</strong></p>
+                        <ol>
+                            <li>Select a coffee drink</li>
+                            <li>Add 2 extra shots</li>
+                            <li>Add to cart</li>
+                            <li>Observe cart total (modifier cost missing)</li>
+                        </ol>
+                        <p><strong>Expected:</strong> Total should include base price + modifier costs</p>
+                        <p><strong>Actual:</strong> Only base price displayed</p>
+                    </div>
+                    
+                    <div class="bug-item">
+                        <h3>Bug #002: Reservation Time Zone Issue</h3>
+                        <p><strong>Severity:</strong> Medium</p>
+                        <p><strong>Description:</strong> Reservations booked by users in different time zones displayed incorrectly in restaurant dashboard.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Tools Used -->
+            <section class="project-section">
+                <h2>Tools Used</h2>
+                <ul class="tools-list">
+                    <li>Jira (bug tracking)</li>
+                    <li>TestRail (test case management)</li>
+                    <li>Chrome DevTools (debugging)</li>
+                    <li>BrowserStack (cross-browser testing)</li>
+                </ul>
+            </section>
+            
+            <!-- Outcomes -->
+            <section class="project-section">
+                <h2>Outcomes</h2>
+                <ul>
+                    <li>Identified 12 critical bugs before release</li>
+                    <li>Created 50+ test cases covering all user workflows</li>
+                    <li>Collaborated with developers to verify fixes</li>
+                    <li>Contributed to smoother launch with fewer production issues</li>
+                </ul>
+            </section>
+            
+            <!-- Links -->
+            <section class="project-section">
+                <h2>Project Links</h2>
+                <div class="project-links">
+                    <a href="#" class="btn">View Test Cases (PDF)</a>
+                    <a href="#" class="btn">Sample Bug Report (PDF)</a>
+                    <a href="#" class="btn">Live Demo (if available)</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer (copy from your index.html) -->
+    <footer>...</footer>
+</body>
+</html>
